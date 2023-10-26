@@ -177,7 +177,7 @@ export default function ShopMapDisplay({ navigation }: any)
   {
     const selectedShop: shopDataInterface | undefined = nearbyShops?.[index];
     console.log('called handleMarkerPress: ', selectedShop?.shopId);
-    navigation.navigate('CustomerShopPage', { shopId: selectedShop?.shopId });
+    navigation.navigate('CustomerShopPage', { shopId: "JAAcrEfH1LPGi9NddZz16ZegLVK2" });
   }
 
   // const userSelectedCoordinate = async (data: any) =>
